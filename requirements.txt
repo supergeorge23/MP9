@@ -1,0 +1,6 @@
+streamlit
+transformers
+tensorflow
+sentencepiece
+tf-keras
+matplotlib

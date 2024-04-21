@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from transformers import pipeline
 
 st.title('My First Streamlit App')
@@ -40,9 +40,9 @@ st.markdown('**Bold Text:** Here is some bold text!')
 
 
 
-# fig, ax = plt.subplots()
-# ax.hist([10, 20, 30, 40, 50], bins=[0, 10, 20, 30, 40, 50])
-# st.pyplot(fig)
+fig, ax = plt.subplots()
+ax.hist([10, 20, 30, 40, 50], bins=[0, 10, 20, 30, 40, 50])
+st.pyplot(fig)
 
 
 
